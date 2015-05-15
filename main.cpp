@@ -16,7 +16,7 @@ int main()
 	
 	for(int i=0 ; i<10 ; i++)
 	{
-		cout<<"Ingrese valor entero y positivo: \n";
+		cout<<"Ingrese valor entero y positivo: \n";  //valido que sea >=0
 		do
 		{
 			cin>>n;
@@ -27,7 +27,7 @@ int main()
 			}
 			else
 			    cout<<"Valor fuera de rango \n";
-		}while(s!=true);
+		}while(s!=true); 
 	}
 	min=numero[0];
 	for(int j=0 ; j<10 ; j++)
